@@ -1,0 +1,26 @@
+{
+  "name": "ego-auth-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for services using ego for Auth",
+  "main": "index.ts",
+  "dependencies": {
+    "@types/node": "^9.4.6",
+    "axios": "^0.18.0",
+    "http-proxy": "^1.16.2",
+    "jsonwebtoken": "^8.2.0",
+    "memoizee": "^0.4.12",
+    "ms": "^2.1.1",
+    "typescript": "^2.7.2",
+    "url-join": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/http-proxy": "^1.16.0",
+    "dotenv": "^5.0.1",
+    "ts-node": "^5.0.1"
+  },
+  "scripts": {
+    "start": "NODE_PATH=./ ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
