@@ -14,6 +14,7 @@ const server = http.createServer(async (req, res) => {
   }
   catch (error) {
     res.writeHead(400, { 'Content-Type': 'text/plain' });
+    res.write(error.toString());
     res.end();
   }
 });
